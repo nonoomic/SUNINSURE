@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		/* background-image: url("images/bg02.png"); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1787,13 +1787,13 @@ input, select, textarea {
 		ul.contact li {
 			position: relative;
 			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 7em;
+			padding: 0.3em 0 0.3em 7em;
 		}
 
 			ul.contact li h3 {
 				position: absolute;
 				left: 0;
-				top: 1.3em;
+				top: 0.3em;
 				font-size: 1.1em;
 			}
 
@@ -1880,7 +1880,7 @@ input, select, textarea {
 
 		ul.divided li {
 			border-top: solid 1px #ddd;
-			padding: 1em 0 1em 0;
+			/* padding: 1em 0 1em 0; */
 		}
 
 			ul.divided li:first-child {
@@ -2041,11 +2041,11 @@ input, select, textarea {
 			}
 
 			.icon.featured.alt {
-				background-color: #252122;
+				background-color: #005281;
 			}
 
 				.icon.featured.alt:after {
-					border-top-color: #252122;
+					border-top-color: #005281;
 				}
 
 			.icon.featured.alt2 {
@@ -2073,9 +2073,9 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #3b3b3b;
 			font-weight: 900;
-			font-size: 2.5em;
+			font-size: 3.5em;
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
@@ -2184,21 +2184,21 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(161, 140, 145, 0.4);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
 		}
 
 			#banner header h2 {
-				color: #fff;
+				color: rgb(180, 0, 69);
 				font-weight: 700;
-				font-size: 2.5em;
+				font-size: 3.5em;
 				margin: 0 0 0.65em 0;
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #006816;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2266,7 +2266,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2276,14 +2276,13 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7;
 		}
 
 /* Footer */
@@ -2300,7 +2299,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			/* background: url("images/bg01.png"); */
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2631,7 +2630,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				/* background-image: url("images/bg02.png"); */
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
