@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
-  <title>My LIFF app</title>
+  <title>Liff Insurance Plans</title>
   <!--<link rel="stylesheet" href="css/style.css" media="all">-->
     <script>
         document.write('<link rel="stylesheet" href="css/style.css?cache="' + new Date().getTime() + ' media="all">')
     </script>
 </head>
 <body>
+
+
+
   <p id="os"><b>OS:</b> </p>
   <p id="language"><b>Language:</b> </p>
   <p id="version"><b>Version:</b> </p>
@@ -30,16 +33,10 @@
   <p id="isLoggedIn"><b>isLoggedIn:</b> </p>
   <p id="universalLink1"><b>Universal Link:</b> </p>
   <p id="universalLink2"><b>Universal Link with Query params:</b> </p>
-  <p><a href="https://nonoomic.github.io/liff/path/?param=1">Link to Path</a></p>
 
-  <button id="btnMsg" onclick="sendMsg()">Send Message</button>
-  <button id="btnShare" onclick="shareMsg()">Share Target Picker</button>
-  <button onclick="openWindow()">Open Window</button>
-  <button id="btnScanCode" onclick="scanCode()">Scan Code</button>
-  <button id="btnLogOut" onclick="logOut()">Log Out</button>
-  <button id="btnClose" onclick="closed()">Close</button>
-  <p id="Test1"></p>
-  <p id="Test2"></p>
+
+  <button id="btnMsg" onclick="sendMsg()">สนใจประกันแผนนี้</button>
+  <button id="btnClose" onclick="closed()">ปิด</button>
 
   <script src="js/vconsole.min.js"></script>
   <script>
@@ -87,7 +84,7 @@
         document.getElementById("friendship").append(friend.friendFlag)
         if(!friend.friendFlag){
             if(confirm("คุณยังไม่ได้เป็นเพื่อนกับ Bot จะเพิ่มเลยไหม?")){
-                window.location = "https://line.me/R/ti/p/%40682goowg#~"
+                window.location = "https://line.me/R/ti/p/%40132amzo"
             }
         }
         else{
@@ -104,7 +101,6 @@
                     "packageId":1
                 }
             ])
-            alert("Message sent")
         }
     }
 
@@ -144,8 +140,7 @@
     }
 
     async function main() {
-      //alert("LINE Developers x Skooldio")
-        await liff.init({ liffId: "1654212012-g0peXNXk" })
+        await liff.init({ liffId: "1654212012-DE8xAvAb" })
         document.getElementById("isLoggedIn").append(liff.isLoggedIn())
         if(liff.isLoggedIn()){
               getEnvironment()
